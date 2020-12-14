@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300i,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400');
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+}
+
+main.container{
+	padding-top:120px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+
+h1{
+	margin-bottom:2rem;
+	color:#aaa;
+}
+
+h4{
+	margin-top:1.5rem;
+}
+
+.blockquote{
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 2.5rem;
+	color:#999;
+}
+
+.navbar-brand{
+	font-weight: 400;
+	font-size:1rem;
+}
